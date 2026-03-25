@@ -1,0 +1,12 @@
+2026-03-19 03:44:22 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /alert\s*\(/i | Activity: /mohaz_bank/?q=%3Cscript%3Ealert(%27xss%27)%3C/script%3E
+2026-03-19 03:45:00 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /\.\.\/|\.\.\\/ | Activity: /mohaz_bank/?file=../../etc/passwd
+2026-03-19 03:45:13 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /\bcmd\b/i | Activity: /mohaz_bank/?cmd=whoami
+2026-03-19 03:46:34 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /alert\s*\(/i | Activity: /mohaz_bank/?q=%3Cscript%3Ealert(1)%3C/script%3E
+2026-03-19 03:46:38 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /\.\.\/|\.\.\\/ | Activity: /mohaz_bank/?file=../../etc/passwd
+2026-03-19 03:46:41 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /\bcmd\b/i | Activity: /mohaz_bank/?cmd=whoami
+2026-03-19 05:11:10 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /alert\s*\(/i | Activity: /mohaz_bank/?q=%3Cscript%3Ealert(1)%3C/script%3E
+2026-03-19 05:11:16 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /\.\.\/|\.\.\\/ | Activity: /mohaz_bank/?file=../../etc/passwd
+2026-03-19 05:11:24 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /\bcmd\b/i | Activity: /mohaz_bank/?cmd=whoami
+2026-03-19 05:14:28 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /alert\s*\(/i | Activity: /mohaz_bank/?q=%3Cscript%3Ealert(1)%3C/script%3E
+2026-03-19 05:14:34 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /\.\.\/|\.\.\\/ | Activity: /mohaz_bank/?file=../../etc/passwd
+2026-03-19 05:14:46 | BLOCKED | IP: ::1 | Threat: Critical | Pattern: /\bcmd\b/i | Activity: /mohaz_bank/?cmd=whoami
